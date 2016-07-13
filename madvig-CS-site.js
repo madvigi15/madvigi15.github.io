@@ -3,7 +3,7 @@ $(document).ready(function () {
     //$('#header').slideDown(1000);
     $('.active-content').hide();
     $('.active-content').fadeIn(1000);
-    //$('#footer').hide();
+    $('#footer').hide();
     
     $('.arrow-right').click(function () {
         var currentContent = $('.active-content');
