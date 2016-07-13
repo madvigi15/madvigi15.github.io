@@ -37,18 +37,23 @@ a:hover {
 
 .active-content {
     display: block;
+    overflow-y: hidden;
+}
+
+.words{
+    overflow-y: hidden;
+    width: 74%;
 }
 
 .content {
-    margin-top: 100px;
+    top: 82;
+    bottom: 80px;
     margin-left: 8%;
-    padding-left: 50px;
-    width: 72%;
-    height: 82.9%;
+    width: 92%;
     display: none;
     position: absolute;
-    left: 0;
-    top: 0;
+    left: 0px;
+    overflow-y: scroll;
 }
 
 h1 {
